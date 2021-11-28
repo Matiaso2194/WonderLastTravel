@@ -328,7 +328,10 @@ footer {
 .formVideo {
   width: 100%;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-image: url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
+  background-repeat: no-repeat;
+  background-size: cover; }
   .formVideo .textoForm {
     background-color: #d3cbcd;
     width: 500px;
@@ -337,7 +340,8 @@ footer {
     border-radius: 10%;
     padding-top: 15px;
     margin-left: 150px;
-    margin-bottom: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     align-items: center; }
     .formVideo .textoForm .formContacto {
       display: flex;
