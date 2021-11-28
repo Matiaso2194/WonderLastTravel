@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="formulario, contacto, itinerario de viaje, presupuesto viaje, itinerario personalizado, plan de viaje, cotización viaje">
+    <meta name="description"
+        content="Si deseas solicitar asistencia del equipo de Wonderlast para la creación de tu itinerario de viaje ideal, escribenos y nos pondremos en contacto a la brevedad.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/demo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title> Formulario de Contacto - El Itinerario perfecto para tu Viaje - Wonderlast Sitio Oficial</title>
+</head>
+
+<body class="fondoCrear">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a href="../index.html" class="textoTitulo"><img src="../img/logo.jpg" id="logo">Wonderlast Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./crear.html">Crear mi Itinerario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./perfil.html">Mi Perfil<a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./iniciar.html">Iniciar Sesión<a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="formVideo">
+            <div class="textoForm">
+                <form action="#" class="formContacto">
+                    <div class="itinerarioMedida">
+                        <h1>Organizamos tu itinerario a medida</h1>
+                    </div>
+                    <div class="inputNombre">
+                        <label for="nombre">Ingresa tu nombre </label>
+                        <input type="text" name="nombre" required />
+                    </div>
+                    <div class="inputNombre">
+                        <label for="apellido">Ingresa tu apellido</label>
+                        <input type="text" name="apellido" required />
+                    </div>
+                    <div class="inputNombre">
+                        <label for="correo">Ingresa tu correo</label>
+                        <input type="email" name="correo" required />
+                    </div>
+
+                    <div class="cantidadPersonas">
+                        <div class="fuenteForm">Elige con quien viajar</div>
+                        <div class="chkboxOrden">
+                            <div>Solo</div>
+                            <input type="checkbox" name="viaje" value="solo" />
+                            <div>Pareja</div>
+                            <input type="checkbox" name="viaje" value="pareja" />
+                            <div>Familia</div>
+                            <input type="checkbox" name="viaje" value="familia" />
+                            <div>Amigos</div>
+                            <input type="checkbox" name="viaje" value="amigos" />
+                        </div>
+                    </div>
+                    <div class="monedaPago">
+                        <div class="fuenteForm">Moneda</div>
+                        <div class="chkboxOrden">
+                            <label for="moneda">$</label>
+                            <input type="radio" name="moneda" value="1" />
+                            <label for="moneda">u$s</label>
+                            <input type="radio" name="moneda" value="2" />
+                            <label for="moneda">€</label>
+                            <input type="radio" name="moneda" value="3" />
+                        </div>
+                    </div>
+                    <div>
+
+                        <label id="budget">
+                            <div class="fuenteForm">Presupuesto disponible</div>
+                        </label>
+                        <input type="range" id="budget" min="0" max="50000" />
+                    </div>
+                    <div class="ages">
+                        <label for="Edades">
+                            <div class="fuenteForm">Rango Etario Viajeros</div>
+                        </label>
+                        <select name="Edades">
+                            <option value="chicos">0-18</option>
+                            <option value="jovenes">18-35</option>
+                            <option value="adultos">35-65</option>
+                            <option value="tercera edad">+65</option>
+                        </select>
+                    </div>
+                    <div class="comentando">
+                        <label for="comentarios">
+                            <div class="fuenteForm">Comenta aca</div>
+                        </label>
+                        <textarea rows="4" cols="15" name="comentarios"></textarea>
+                    </div>
+                    <div class="condiciones">
+                        <div class="terminos">
+                            <div class="fuenteForm">Acepta términos y condiciones</div>
+                        </div>
+                        <div class="chkboxOrdenDos">
+                            <label for="acepta">Si</label>
+                            <input type="radio" name="acepta" value="1" />
+                            <label for="acepta">No</label>
+                            <input type="radio" name="acepta" value="2" />
+                        </div>
+                    </div>
+                    <div class="chkboxOrden">
+                        <div class="separado">
+                            <button type="submit" class="btn btn-dark p-2">
+                                Enviar Form
+                            </button>
+                        </div>
+                        <div class=" separado">
+                            <button type="reset" class="btn btn-dark p-2">
+                                Reiniciar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="videos">
+                <div class="videosTest">
+                    <iframe width="560" height="315" alt="Viaje por el mundo"
+                        src="https://www.youtube.com/embed/ioYqFtr2D0Q" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="videosTest">
+                    <iframe width="560" height="315" alt="Viaje por el mundo"
+                        src="https://www.youtube.com/embed/vFrwYSKxqzg" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

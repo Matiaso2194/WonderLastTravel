@@ -1,0 +1,640 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Tipografía Titulos H */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 25px;
+
+  a {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+
+h3 a {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 25px;
+}
+
+h5 a {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 25px;
+
+  &:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+}
+
+h2 a:hover,
+h3 a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/*END*/
+
+html {
+  background-color: rgb(222, 231, 236);
+}
+
+.container-fluid img {
+  height: 60px;
+  width: 60px;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+nav ul:hover,
+ul a:hover {
+  text-decoration: underline;
+}
+
+.btnAbajo {
+  font-family: sans-serif;
+  margin-top: 39px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  background-color: none;
+}
+
+.fondoCrear {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(198, 218, 228),
+    rgb(185, 193, 197)
+  );
+  .textoTitulo {
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.probando button {
+  margin-top: 25px;
+}
+
+input {
+  &[type="submit"]:hover,
+  &[type="reset"]:hover {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: rgb(166, 183, 214);
+    border: solid 4px black;
+  }
+}
+
+button:hover {
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(166, 183, 214);
+  border: solid 4px black;
+}
+
+.contenedorDos {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.contenedorDos img {
+  width: 100%;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 80px;
+}
+
+.centradoDos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+  float: right;
+  padding: 15px;
+  font-size: 20px;
+  color: black;
+  margin: 0;
+  position: relative;
+  bottom: 45px;
+  text-decoration: none;
+}
+
+.reserve {
+  text-align: center;
+  border: 3px solid black;
+  height: 50vh;
+
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    margin-top: 70px;
+  }
+  .infoReservas {
+    margin-top: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    .infoReservasDos {
+      padding: 5px;
+    }
+  }
+  .pricePos p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 190px;
+  }
+  .destinosTuristicos:hover {
+    transform: scale(1.1);
+  }
+}
+
+.itiIdeal {
+  margin-left: 0;
+  margin-bottom: 140px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+}
+
+footer {
+  margin-top: 60px;
+  strong {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+}
+
+.edit {
+  width: 100px;
+  height: 40px;
+}
+
+.bordeado {
+  border: solid black;
+  width: 80%;
+}
+
+#logo {
+  height: 90px;
+  width: 90px;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  margin-top: 90px;
+}
+
+.socialNetworks {
+  .sesionCentro {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btnCentrado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    .btnSesion {
+      margin-top: 60px;
+    }
+    .btnSesionDos {
+      margin-top: 80px;
+    }
+  }
+}
+
+.buscarPais {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.filtros {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .topito {
+    display: flex;
+    border: 5px solid black;
+    padding: 35px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.itinerarys {
+  text-align: center;
+  .titleMargin {
+    margin-bottom: 40px;
+  }
+  .uno,
+  .dos,
+  .tres {
+    width: 270px;
+    height: 270px;
+    border-radius: 25%;
+  }
+  .uno:hover,
+  .dos:hover,
+  .tres:hover {
+    transform: scale(1.2);
+  }
+
+  .lola {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: justify;
+    line-height: 2.5;
+    padding: 70px;
+  }
+}
+
+.probando {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: text-bottom;
+  text-align: center;
+  padding: 10px;
+  margin-top: 55px;
+  justify-content: space-evenly;
+  .topo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .btnAbajoDos {
+      font-family: sans-serif;
+      margin-top: 45px;
+    }
+    .nycSize,
+    .romaSize,
+    .londresSize,
+    .parisSize {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      text-align: center;
+      display: block;
+      padding: 40px;
+      border-radius: 30%;
+    }
+    #torre:hover,
+    #london:hover,
+    #romex:hover,
+    #newyork:hover {
+      transform: scale(1.2);
+    }
+    .pcentrado {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: justify;
+      width: 300px;
+      font-size: large;
+      font-weight: bold;
+      line-height: 2.5;
+      font-family: sans-serif, cursive;
+    }
+  }
+}
+
+.reservations {
+  margin-top: 20px;
+
+  .misReservas {
+    font-size: 32px;
+  }
+  .buscarReserva {
+    float: right;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.destinoUno,
+.destinoDos {
+  margin-top: 120px;
+  .destinos {
+    font-size: 28px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .dates {
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}
+
+#perfil {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.formVideo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  .textoForm {
+    background-color: rgb(211, 203, 205);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    padding-top: 15px;
+    margin-left: 150px;
+    margin-bottom: 45px;
+    align-items: center;
+    .formContacto {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      padding-left: 40px;
+      .chkboxOrden {
+        width: 280px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 35px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        .separado {
+          width: 400px;
+          height: 10vh;
+          align-items: flex-start;
+          margin-bottom: 45px;
+        }
+      }
+      #budget,
+      .ages,
+      .comentando,
+      .condiciones {
+        margin-top: 30px;
+        .terminos {
+          display: flex;
+          width: 300px;
+          justify-content: flex-start;
+        }
+        .chkboxOrdenDos {
+          width: 280px;
+          display: flex;
+          justify-content: space-evenly;
+          font-family: sans-serif;
+          font-weight: bolder;
+        }
+      }
+      .fuenteForm {
+        color: black;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 25px;
+      }
+      .monedaPago {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 10px;
+      }
+    }
+
+    .cantidadPersonas {
+      display: flex;
+      flex-direction: column;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: black;
+    }
+    .inputNombre {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+    .itinerarioMedida {
+      margin-top: 50px;
+    }
+  }
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  .videosTest {
+    display: flex;
+    padding: 55px;
+    margin-top: 100px;
+    iframe {
+      border-radius: 10%;
+    }
+  }
+}
+
+/*media queries Seccion Contacto*/
+
+@media (min-width: 320px) and (max-width: 1170px) {
+  .formVideo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formVideo .textoForm {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 482px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .inputNombre,
+  .chkboxOrden {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 798px) {
+  .inputNombre,
+  .chkboxOrden {
+    font-size: 13px;
+  }
+}
+
+/*End*/
+
+/*media queries Seccion Reservas*/
+@media (min-width: 800px) and (max-width: 1200px) {
+  .infoReservasDos {
+    font-size: 20px;
+  }
+  .reserve .pricePos p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 798px) {
+  .infoReservasDos {
+    font-size: 17px;
+  }
+  .reserve .pricePos p {
+    font-size: 15px;
+  }
+}
+
+/*End*/
+
+.perfilDesign {
+  border: solid black;
+  padding: 35px;
+  #fotoPerfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  .btnPos {
+    margin-top: 90px;
+  }
+
+  #datos {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 40px;
+    .fuenteName {
+      color: black;
+      font-weight: bolder;
+    }
+    .mailing {
+      display: flex;
+      flex-direction: column;
+      font-weight: bolder;
+      .fuenteMail {
+        color: black;
+        font-weight: bold;
+      }
+    }
+    .foca {
+      display: flex;
+      flex-direction: column;
+      font-weight: bolder;
+      color: black;
+    }
+  }
+}
+
+.bordeMetodos {
+  border: 3px solid black;
+  border-top: 0;
+  .fuenteName {
+    color: black;
+    font-weight: bolder;
+  }
+  .paymentStyle {
+    text-align: center;
+    padding: 55px;
+  }
+}
+
+.feedbacks {
+  margin-top: 100px;
+  border: 3px solid black;
+  padding-left: 180px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  #valoraciones,
+  #rankingPaises,
+  #comentarios {
+    font-weight: bolder;
+  }
+
+  .fuenteName {
+    color: black;
+    font-weight: bolder;
+  }
+}
+
+.tripsDone {
+  margin-top: 100px;
+  border: 3px solid black;
+  .paisFecha {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 60px;
+    #rome {
+      padding: 12px;
+      font-weight: bolder;
+    }
+  }
+  .fuenteName {
+    color: black;
+    font-weight: bolder;
+  }
+}
