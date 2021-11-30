@@ -74,7 +74,7 @@ ul a:hover {
   background-color: none; }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, #3f391c, #b9c1c5); }
+  background-image: linear-gradient(to bottom, #f8f1d9, #b9c1c5); }
   .fondoCrear .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -417,10 +417,17 @@ footer {
       border-radius: 10%; }
 
 /*media queries index*/
-@media (min-width: 320px) and (max-width: 1200px) {
-  .itiIdeal form {
-    font-size: 20px;
-    margin-top: 50px; } }
+@media (min-width: 600px) and (max-width: 1200px) {
+  .itiIdeal {
+    font-size: 24px;
+    margin-bottom: 20px; } }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .itiIdeal {
+    font-size: 15px;
+    margin-bottom: 5px; }
+  .carousel-caption p {
+    display: none; } }
 
 /*End*/
 /*media queries Seccion Contacto*/
