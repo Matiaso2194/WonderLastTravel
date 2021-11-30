@@ -74,7 +74,7 @@ ul a:hover {
   background-color: none; }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, #f3e8d3, #b9c1c5); }
+  background-image: linear-gradient(to bottom, #faf0df, #b9c1c5); }
   .fondoCrear .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -443,7 +443,7 @@ footer {
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 5px;
     width: 350px; } }
 
 @media (min-width: 800px) and (max-width: 1200px) {
