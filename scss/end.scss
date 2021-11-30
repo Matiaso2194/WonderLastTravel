@@ -513,7 +513,13 @@ footer {
 @media (min-width: 320px) and (max-width: 599px) {
   .itiIdeal {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    .itiIdeal button {
+      font-size: 10px;
+    }
+  }
+  .carouselMargin {
+    margin-top: 30px;
   }
 
   .carousel-caption p {
