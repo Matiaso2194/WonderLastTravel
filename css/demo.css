@@ -443,7 +443,7 @@ footer {
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 0;
+    margin-left: 60px;
     width: 350px; } }
 
 @media (min-width: 800px) and (max-width: 1200px) {
