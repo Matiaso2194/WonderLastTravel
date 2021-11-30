@@ -199,6 +199,43 @@ footer {
 .navbar-nav {
   margin-top: 90px; }
 
+.pruebaNav {
+  display: flex;
+  margin-bottom: 50px; }
+
+#menu {
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px; }
+
+#menu ul {
+  width: 600px;
+  text-decoration: none;
+  color: #f2f2f2;
+  font: 16px "Roboto";
+  display: flex;
+  padding-left: 70px;
+  background: #c4c8c9;
+  margin-top: 27px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  transition: background 0.6s, margin-left 0.6s, margin-right 0.6s;
+  -webkit-transition: background 0.6s, margin-left 0.6s, margin-right 0.6s;
+  -moz-transition: background 0.6s, margin-left 0.6s, margin-right 0.6s;
+  -o-transition: background 0.6s, margin-left 0.6s, margin-right 0.6s; }
+
+#menu ul a {
+  padding: 20px; }
+
+#menu ul a:hover {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: underline;
+  color: black;
+  font-weight: bolder; }
+
 .socialNetworks .sesionCentro {
   text-align: center;
   margin-top: 20px; }
@@ -209,11 +246,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 60px;
-  border: 5px solid black;
-  width: 400px;
-  padding-top: 30px;
-  margin-left: 590px; }
+  margin-top: 60px; }
   .socialNetworks .btnCentrado .btnSesion {
     margin-top: 60px; }
   .socialNetworks .btnCentrado .btnSesionDos {
@@ -421,14 +454,16 @@ footer {
       border-radius: 10%; }
 
 /*media queries Seccion Contacto*/
-@media (min-width: 320px) and (max-width: 1170px) {
+@media (min-width: 480px) and (max-width: 1180px) {
   .formVideo {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column; } }
+
+@media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 0;
-    width: 482px; } }
+    margin-left: 80px;
+    width: 350px; } }
 
 @media (min-width: 800px) and (max-width: 1200px) {
   .inputNombre,
@@ -455,6 +490,17 @@ footer {
     font-size: 15px; } }
 
 /*End*/
+/* media queries Seccion Crear */
+/* Mobile */
+@media (min-width: 320px) and (max-width: 599px) {
+  .centradoDos {
+    font-size: px; } }
+
+/*Tablet*/
+@media (min-width: 600px) and (max-width: 768px) {
+  .centradoDos {
+    font-size: 25px; } }
+
 .perfilDesign {
   border: solid black;
   padding: 35px; }
