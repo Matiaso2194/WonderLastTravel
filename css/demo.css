@@ -74,7 +74,7 @@ ul a:hover {
   background-color: none; }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, #f8f1d9, #b9c1c5); }
+  background-image: linear-gradient(to bottom, #3f391c, #b9c1c5); }
   .fondoCrear .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -416,6 +416,13 @@ footer {
     .videos .videosTest iframe {
       border-radius: 10%; }
 
+/*media queries index*/
+@media (min-width: 320px) and (max-width: 1200px) {
+  .itiIdeal form {
+    font-size: 20px;
+    margin-top: 50px; } }
+
+/*End*/
 /*media queries Seccion Contacto*/
 @media (min-width: 480px) and (max-width: 1180px) {
   .formVideo {
