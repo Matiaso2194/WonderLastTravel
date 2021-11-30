@@ -65,7 +65,7 @@ ul a:hover {
 }
 
 .btnAbajo {
-  font-family: sans-serif;
+  font-family: "Roboto";
   margin-top: 39px;
 }
 
@@ -90,11 +90,7 @@ ul a:hover {
 }
 
 .fondoCrear {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(235, 233, 204),
-    rgb(185, 193, 197)
-  );
+  background-image: linear-gradient(to bottom, (#f8f1d9), rgb(185, 193, 197));
   .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -257,13 +253,21 @@ footer {
   .btnCentrado {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 60px;
+    border: 5px solid black;
+    width: 400px;
+    padding-top: 30px;
+    margin-left: 590px;
+
     .btnSesion {
       margin-top: 60px;
     }
     .btnSesionDos {
-      margin-top: 80px;
+      margin-top: 60px;
+      padding-bottom: 20px;
     }
   }
 }
@@ -272,7 +276,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 50px;
-  font-family: sans-serif;
+  font-family: "Roboto";
   font-weight: bolder;
 }
 
@@ -298,7 +302,7 @@ footer {
   .tres {
     width: 270px;
     height: 270px;
-    border-radius: 25%;
+    border-radius: 10%;
   }
   .uno:hover,
   .dos:hover,
@@ -307,7 +311,7 @@ footer {
   }
 
   .lola {
-    font-family: sans-serif;
+    font-family: "Roboto";
     font-weight: bold;
     margin-top: 2px;
     text-align: justify;
@@ -333,8 +337,7 @@ footer {
     align-items: center;
     margin-bottom: 20px;
     .btnAbajoDos {
-      font-family: sans-serif;
-      margin-top: 45px;
+      font-family: "Roboto";
     }
     .nycSize,
     .romaSize,
@@ -346,7 +349,7 @@ footer {
       text-align: center;
       display: block;
       padding: 40px;
-      border-radius: 30%;
+      border-radius: 17%;
     }
     #torre:hover,
     #london:hover,
@@ -363,7 +366,7 @@ footer {
       font-size: large;
       font-weight: bold;
       line-height: 2.5;
-      font-family: sans-serif, cursive;
+      font-family: "Roboto", cursive;
     }
   }
 }
@@ -430,7 +433,7 @@ footer {
         display: flex;
         justify-content: space-evenly;
         margin-top: 35px;
-        font-family: sans-serif;
+        font-family: "Roboto";
         font-weight: bolder;
         .separado {
           width: 400px;
@@ -453,7 +456,7 @@ footer {
           width: 280px;
           display: flex;
           justify-content: space-evenly;
-          font-family: sans-serif;
+          font-family: "Roboto";
           font-weight: bolder;
         }
       }
@@ -480,7 +483,7 @@ footer {
     .inputNombre {
       padding-top: 15px;
       padding-bottom: 15px;
-      font-family: sans-serif;
+      font-family: "Roboto";
       font-weight: bolder;
     }
     .itinerarioMedida {
@@ -570,7 +573,7 @@ footer {
   #datos {
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: "Roboto";
     margin-top: 40px;
     .fuenteName {
       color: black;
