@@ -408,6 +408,21 @@ footer {
   background-image: url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  .videos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-around;
+    .videosTest {
+      display: flex;
+      padding: 60px;
+      iframe {
+        border-radius: 10%;
+        width: 560px;
+        height: 315px;
+      }
+    }
+  }
   .textoForm {
     background-color: rgb(211, 203, 205);
     width: 500px;
@@ -415,7 +430,6 @@ footer {
     justify-content: center;
     border-radius: 10%;
     padding-top: 15px;
-    margin-left: 150px;
     margin-top: 25px;
     margin-bottom: 25px;
     align-items: center;
@@ -488,19 +502,6 @@ footer {
   }
 }
 
-.videos {
-  display: flex;
-  flex-direction: column;
-  .videosTest {
-    display: flex;
-    padding: 55px;
-    margin-top: 100px;
-    iframe {
-      border-radius: 10%;
-    }
-  }
-}
-
 /*media queries index*/
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -535,13 +536,17 @@ footer {
   .formVideo {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .videosTest iframe {
+    max-width: 360px;
+    max-height: 203px;
   }
 }
 
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 15px;
     width: 350px;
   }
 }

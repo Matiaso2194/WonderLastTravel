@@ -334,6 +334,18 @@ footer {
   background-image: url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
   background-repeat: no-repeat;
   background-size: cover; }
+  .formVideo .videos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: space-around; }
+    .formVideo .videos .videosTest {
+      display: flex;
+      padding: 60px; }
+      .formVideo .videos .videosTest iframe {
+        border-radius: 10%;
+        width: 560px;
+        height: 315px; }
   .formVideo .textoForm {
     background-color: #d3cbcd;
     width: 500px;
@@ -341,7 +353,6 @@ footer {
     justify-content: center;
     border-radius: 10%;
     padding-top: 15px;
-    margin-left: 150px;
     margin-top: 25px;
     margin-bottom: 25px;
     align-items: center; }
@@ -406,16 +417,6 @@ footer {
     .formVideo .textoForm .itinerarioMedida {
       margin-top: 50px; }
 
-.videos {
-  display: flex;
-  flex-direction: column; }
-  .videos .videosTest {
-    display: flex;
-    padding: 55px;
-    margin-top: 100px; }
-    .videos .videosTest iframe {
-      border-radius: 10%; }
-
 /*media queries index*/
 @media (min-width: 600px) and (max-width: 1200px) {
   .itiIdeal {
@@ -438,12 +439,15 @@ footer {
 @media (min-width: 100px) and (max-width: 1180px) {
   .formVideo {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    align-items: center; }
+  .videosTest iframe {
+    max-width: 360px;
+    max-height: 203px; } }
 
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 5px;
     width: 350px; } }
 
 @media (min-width: 800px) and (max-width: 1200px) {
