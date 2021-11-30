@@ -531,7 +531,7 @@ footer {
 
 /*media queries Seccion Contacto*/
 
-@media (min-width: 480px) and (max-width: 1180px) {
+@media (min-width: 100px) and (max-width: 1180px) {
   .formVideo {
     display: flex;
     flex-direction: column;
@@ -541,7 +541,7 @@ footer {
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 0;
     width: 350px;
   }
 }
