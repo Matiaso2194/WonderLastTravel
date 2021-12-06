@@ -148,11 +148,11 @@ header li {
   text-decoration: none; }
 
 .reserve {
-  border: 3px solid black;
   height: 50vh;
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #d7dddf; }
   .reserve img {
     width: 250px;
     height: 250px;
@@ -353,7 +353,7 @@ footer {
 
 #perfil {
   margin-top: 60px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   padding-left: 15px; }
 
 .formVideo {
@@ -528,7 +528,6 @@ footer {
     align-items: center; } }
 
 .perfilDesign {
-  border: solid black;
   padding: 35px; }
   .perfilDesign #fotoPerfil {
     width: 250px;
@@ -559,11 +558,11 @@ footer {
       color: black; }
 
 .bordeMetodos {
-  border: 3px solid black;
-  border-top: 0; }
+  margin-top: 40px; }
   .bordeMetodos .fuenteName {
     color: black;
-    font-weight: bolder; }
+    font-weight: bolder;
+    padding-left: 15px; }
   .bordeMetodos .paymentStyle {
     text-align: center;
     padding: 55px; }
@@ -571,8 +570,7 @@ footer {
 .feedbacks {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
-  border: 3px solid black;
+  margin-top: 60px;
   padding-bottom: 20px;
   padding-top: 20px; }
   .feedbacks .bck {
@@ -586,8 +584,7 @@ footer {
     font-weight: bolder; }
 
 .tripsDone {
-  margin-top: 100px;
-  border: 3px solid black; }
+  margin-top: 100px; }
   .tripsDone .paisFecha {
     text-align: center;
     padding: 25px;
@@ -597,4 +594,5 @@ footer {
       font-weight: bolder; }
   .tripsDone .fuenteName {
     color: black;
-    font-weight: bolder; }
+    font-weight: bolder;
+    padding-left: 15px; }
