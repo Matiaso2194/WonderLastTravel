@@ -687,6 +687,8 @@ footer {
   }
 }
 
+/*End*/
+
 .perfilCentrado {
   display: flex;
   justify-content: center;
@@ -788,19 +790,20 @@ footer {
   margin-top: 80px;
 }
 
-.navbar {
-  padding-top: 35px;
-  padding-bottom: 50px;
-  .navTest {
-    width: 720px;
-    margin-left: 330px;
-    #navbarNav {
-      background-color: rgb(207, 211, 197);
-      border-radius: 25px;
-      height: 65px;
-      box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
-    }
+.navTest {
+  width: 720px;
+  margin-left: 330px;
+  #navbarNav {
+    background-color: rgb(207, 211, 197);
+    border-radius: 25px;
+    height: 65px;
+    box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
   }
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .tripsDone {
