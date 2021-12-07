@@ -549,21 +549,37 @@ footer {
 
 /*media queries index*/
 
+.fondoCrear .tituloIndex:before {
+  content: "Wonderlast Travel";
+}
+
+@media (max-width: 900px) and (min-width: 450px) {
+  .fondoCrear .tituloIndex:before {
+    content: "Wonderlast Travel";
+  }
+}
+
+@media (max-width: 430px) {
+  .fondoCrear .tituloIndex:before {
+    content: "WT";
+  }
+}
+
 @media (min-width: 320px) and (max-width: 599px) {
   .fondoCrear .tituloIndex {
-    font-size: 30px;
+    font-size: 25px;
   }
   .fondoCrear .textoTitulo {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .fondoCrear .tituloIndex {
-    font-size: 40px;
+    font-size: 35px;
   }
   .fondoCrear .textoTitulo {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -859,3 +875,5 @@ footer {
     margin-left: 0;
   }
 }
+
+/*end*/
