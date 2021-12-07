@@ -671,6 +671,9 @@ footer {
   .reserve .pricePos p {
     font-size: 15px;
   }
+}
+
+@media (min-width: 220px) and (max-width: 480px) {
   .reserve {
     display: flex;
     flex-direction: column;
@@ -678,6 +681,19 @@ footer {
   }
 }
 
+@media (min-width: 480px) and (max-width: 800px) {
+  .reserve img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 479px) {
+  .reserve img {
+    width: 170px;
+    height: 170px;
+  }
+}
 /*End*/
 
 /* media queries Seccion Crear */
