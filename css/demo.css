@@ -229,25 +229,25 @@ footer {
   .socialNetworks .init {
     display: flex;
     justify-content: center; }
+    .socialNetworks .init .btnCentrado {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 35px;
+      margin-bottom: 20px;
+      border: 5px solid black;
+      border-radius: 20px;
+      width: 400px; }
+      .socialNetworks .init .btnCentrado .btnSesion {
+        margin-top: 60px; }
+      .socialNetworks .init .btnCentrado .btnSesionDos {
+        margin-top: 60px;
+        padding-bottom: 20px; }
   .socialNetworks .sesionCentro {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     color: white; }
-  .socialNetworks .btnCentrado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    border: 5px solid black;
-    border-radius: 20px;
-    width: 400px; }
-    .socialNetworks .btnCentrado .btnSesion {
-      margin-top: 60px; }
-    .socialNetworks .btnCentrado .btnSesionDos {
-      margin-top: 60px;
-      padding-bottom: 20px; }
 
 .buscarPais {
   display: flex;
@@ -700,3 +700,11 @@ footer {
     margin-left: 0; } }
 
 /*end*/
+/* Media queries Seccion Iniciar */
+@media (max-width: 480px) {
+  #iniciarCentro {
+    font-size: 21px; }
+  .socialNetworks .init .btnCentrado {
+    width: 290px; } }
+
+/*End*/

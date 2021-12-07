@@ -279,6 +279,24 @@ footer {
   .init {
     display: flex;
     justify-content: center;
+    .btnCentrado {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 35px;
+      margin-bottom: 20px;
+      border: 5px solid black;
+      border-radius: 20px;
+      width: 400px;
+
+      .btnSesion {
+        margin-top: 60px;
+      }
+      .btnSesionDos {
+        margin-top: 60px;
+        padding-bottom: 20px;
+      }
+    }
   }
 
   .sesionCentro {
@@ -286,24 +304,6 @@ footer {
     justify-content: center;
     margin-top: 20px;
     color: white;
-  }
-  .btnCentrado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
-    border: 5px solid black;
-    border-radius: 20px;
-    width: 400px;
-
-    .btnSesion {
-      margin-top: 60px;
-    }
-    .btnSesionDos {
-      margin-top: 60px;
-      padding-bottom: 20px;
-    }
   }
 }
 
@@ -877,3 +877,16 @@ footer {
 }
 
 /*end*/
+
+/* Media queries Seccion Iniciar */
+
+@media (max-width: 480px) {
+  #iniciarCentro {
+    font-size: 21px;
+  }
+  .socialNetworks .init .btnCentrado {
+    width: 290px;
+  }
+}
+
+/*End*/
