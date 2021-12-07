@@ -551,8 +551,8 @@ footer {
 
 @media (min-width: 480px) and (max-width: 800px) {
   .reserve img {
-    width: 200px;
-    height: 200px; } }
+    width: 180px;
+    height: 180px; } }
 
 @media (min-width: 200px) and (max-width: 479px) {
   .reserve img {
