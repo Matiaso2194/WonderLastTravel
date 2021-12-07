@@ -687,12 +687,18 @@ footer {
   .centradoDos h1 {
     font-size: 20px;
   }
+  .filtros .topito {
+    box-shadow: 0.1rem 0.2rem 0.1rem 0 #7e7e7e;
+  }
 }
 
 /*Tablet*/
 @media (min-width: 600px) and (max-width: 768px) {
   .centradoDos h1 {
     font-size: 25px;
+  }
+  .filtros .topito {
+    box-shadow: 0.2rem 0.25rem 0.2rem 0 #7e7e7e;
   }
 }
 
@@ -865,7 +871,7 @@ footer {
   }
 }
 
-/* Nav mediaqueries */
+/* Nav media queries */
 
 @media (min-width: 100px) and (max-width: 970px) {
   .navTest #navbarNav {
