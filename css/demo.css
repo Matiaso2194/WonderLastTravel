@@ -533,12 +533,12 @@ footer {
 /* media queries Seccion Crear */
 /* Mobile */
 @media (min-width: 320px) and (max-width: 599px) {
-  .centradoDos {
-    font-size: 22px; } }
+  .centradoDos h1 {
+    font-size: 20px; } }
 
 /*Tablet*/
 @media (min-width: 600px) and (max-width: 768px) {
-  .centradoDos {
+  .centradoDos h1 {
     font-size: 25px; } }
 
 /*End*/
@@ -550,6 +550,11 @@ footer {
     align-items: center; }
     .feedbacks .bck {
       margin-bottom: 20px; } }
+
+@media (min-width: 120px) and (max-width: 420px) {
+  .perfilCentrado .perfilDesign #fotoPerfil {
+    max-height: 200px;
+    max-width: 200px; } }
 
 /*End*/
 .perfilCentrado {
