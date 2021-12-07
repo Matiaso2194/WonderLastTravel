@@ -460,12 +460,13 @@ footer {
 .fondoCrear .tituloIndex:before {
   content: "Wonderlast Travel"; }
 
-@media (max-width: 900px) and (min-width: 450px) {
-  .fondoCrear .tituloIndex:before {
-    content: "Wonderlast Travel"; } }
+.fondoCrear .textoTitulo:before {
+  content: "Wonderlast Travel"; }
 
 @media (max-width: 430px) {
   .fondoCrear .tituloIndex:before {
+    content: "WT"; }
+  .fondoCrear .textoTitulo:before {
     content: "WT"; } }
 
 @media (min-width: 320px) and (max-width: 599px) {
