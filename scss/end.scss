@@ -555,6 +555,14 @@ footer {
 .fondoCrear .textoTitulo:before {
   content: "Wonderlast Travel";
 }
+@media (max-width: 430px) {
+  .fondoCrear .tituloIndex:before {
+    content: "WT";
+  }
+  .fondoCrear .textoTitulo:before {
+    content: "WT";
+  }
+}
 
 @media (max-width: 430px) {
   .fondoCrear .tituloIndex:before {
@@ -880,12 +888,21 @@ footer {
 
 /* Media queries Seccion Iniciar */
 
-@media (max-width: 480px) {
+@media (min-width: 480px) and (max-width: 780px) {
   #iniciarCentro {
-    font-size: 21px;
+    font-size: 25px;
   }
   .socialNetworks .init .btnCentrado {
-    width: 290px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 479px) {
+  #iniciarCentro {
+    font-size: 20px;
+  }
+  .socialNetworks .init .btnCentrado {
+    width: 300px;
   }
 }
 
