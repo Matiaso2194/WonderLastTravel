@@ -474,7 +474,6 @@ footer {
     justify-content: space-around;
     .videosTest {
       display: flex;
-      padding: 60px;
       iframe {
         border-radius: 10%;
         width: 560px;
@@ -638,6 +637,8 @@ footer {
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 
