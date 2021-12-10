@@ -164,7 +164,8 @@ header li {
   .reserve img {
     width: 250px;
     height: 250px;
-    border-radius: 15%; }
+    border-radius: 15%;
+    transition: 1s ease; }
   .reserve .infoReservas {
     font-size: 25px;
     font-weight: bold;
@@ -177,7 +178,10 @@ header li {
     font-weight: bold;
     font-size: 20px; }
   .reserve .destinosTuristicos:hover {
-    transform: scale(1.1); }
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.15);
+    transition: 1s ease; }
 
 .itiIdeal {
   margin-left: 0;
@@ -277,14 +281,19 @@ footer {
   .itinerarys .tres {
     width: 270px;
     height: 270px;
-    border-radius: 10%; }
+    border-radius: 10%;
+    transition: 1s ease; }
   .itinerarys .uno:hover,
   .itinerarys .dos:hover,
   .itinerarys .tres:hover {
-    transform: scale(1.2); }
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.15);
+    transition: 1s ease; }
   .itinerarys .lola {
     font-family: "Roboto";
     font-weight: bold;
+    font-size: large;
     margin-top: 2px;
     text-align: justify;
     line-height: 2.5;
@@ -317,13 +326,17 @@ footer {
       height: 400px;
       text-align: center;
       display: block;
-      padding: 40px;
-      border-radius: 17%; }
+      margin: 40px 40px;
+      transition: 1s ease;
+      border-radius: 25px; }
     .probando .topo #torre:hover,
     .probando .topo #london:hover,
     .probando .topo #romex:hover,
     .probando .topo #newyork:hover {
-      transform: scale(1.2); }
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(1.15);
+      transition: 1s ease; }
     .probando .topo .pcentrado {
       display: flex;
       flex-direction: column;
@@ -340,7 +353,8 @@ footer {
   padding-left: 15px;
   padding-right: 15px; }
   .reservations .misReservas {
-    font-size: 32px; }
+    font-size: 32px;
+    margin-top: 60px; }
   .reservations .buscarReserva {
     float: right;
     font-size: large;
@@ -364,7 +378,8 @@ footer {
 #perfil {
   margin-top: 60px;
   margin-bottom: 30px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  font-size: 32px; }
 
 .formVideo {
   width: 100%;
@@ -591,6 +606,12 @@ footer {
     max-width: 200px; } }
 
 /*End*/
+#fotoPerfil:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(1.1);
+  transition: 1s ease; }
+
 .perfilCentrado {
   display: flex;
   justify-content: center; }
@@ -603,8 +624,9 @@ footer {
     .perfilCentrado .perfilDesign #fotoPerfil {
       width: 250px;
       height: 250px;
-      border-radius: 100%;
-      margin-right: 40px; }
+      border-radius: 200px;
+      margin-right: 40px;
+      transition: 1s ease; }
     .perfilCentrado .perfilDesign .btnPos {
       margin-top: 90px; }
     .perfilCentrado .perfilDesign #datos {
@@ -736,3 +758,5 @@ footer {
     width: 310px; } }
 
 /*End*/
+.backNav {
+  background-color: #dbdbeb; }
