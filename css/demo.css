@@ -527,7 +527,8 @@ footer strong {
   .formVideo {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    padding-bottom: 15px; }
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
