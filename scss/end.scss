@@ -484,7 +484,7 @@ footer {
     .videosTest {
       display: flex;
       iframe {
-        border-radius: 10%;
+        border-radius: 35px;
         width: 560px;
         height: 315px;
       }
@@ -645,8 +645,8 @@ footer {
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 

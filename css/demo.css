@@ -403,7 +403,7 @@ footer strong {
     .formVideo .videos .videosTest {
       display: flex; }
       .formVideo .videos .videosTest iframe {
-        border-radius: 10%;
+        border-radius: 35px;
         width: 560px;
         height: 315px; }
   .formVideo .textoForm {
@@ -531,8 +531,8 @@ footer strong {
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
-    margin-top: 40px;
-    margin-bottom: 40px; } }
+    padding-top: 20px;
+    padding-bottom: 20px; } }
 
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {
