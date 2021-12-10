@@ -96,7 +96,7 @@ ul a:hover {
 }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, (#faf0df), rgb(185, 193, 197));
+  background-image: linear-gradient(to bottom, (#dae6f1), rgb(185, 193, 197));
   .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -390,8 +390,8 @@ footer {
     .londresSize,
     .parisSize {
       position: relative;
-      width: 300px;
-      height: 400px;
+      width: 250px;
+      height: 375px;
       text-align: center;
       display: block;
       margin: 40px 40px;
@@ -621,10 +621,6 @@ footer {
       font-size: 10px;
     }
   }
-  .carouselMargin {
-    margin-top: 30px;
-  }
-
   .carousel-caption p {
     display: none;
   }
@@ -953,5 +949,5 @@ footer {
 /*End*/
 
 .backNav {
-  background-color: rgb(219, 219, 235);
+  background-color: rgb(215, 221, 223);
 }

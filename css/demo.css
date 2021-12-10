@@ -79,7 +79,7 @@ ul a:hover {
   background-color: none; }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, #faf0df, #b9c1c5); }
+  background-image: linear-gradient(to bottom, #dae6f1, #b9c1c5); }
   .fondoCrear .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -322,8 +322,8 @@ footer {
     .probando .topo .londresSize,
     .probando .topo .parisSize {
       position: relative;
-      width: 300px;
-      height: 400px;
+      width: 250px;
+      height: 375px;
       text-align: center;
       display: block;
       margin: 40px 40px;
@@ -513,8 +513,6 @@ footer {
     margin-bottom: 0; }
     .itiIdeal .itiIdeal button {
       font-size: 10px; }
-  .carouselMargin {
-    margin-top: 30px; }
   .carousel-caption p {
     display: none; } }
 
@@ -759,4 +757,4 @@ footer {
 
 /*End*/
 .backNav {
-  background-color: #dbdbeb; }
+  background-color: #d7dddf; }
