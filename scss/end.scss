@@ -96,7 +96,7 @@ ul a:hover {
 }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, (#dae6f1), rgb(185, 193, 197));
+  background-image: linear-gradient(to bottom, (#e4ecf5), rgb(171, 187, 194));
   .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -193,7 +193,7 @@ header li {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(215, 221, 223);
+  background-color: rgb(195, 216, 223);
   width: 90%;
 
   img {
@@ -292,7 +292,6 @@ footer {
       border: 5px solid black;
       border-radius: 20px;
       width: 400px;
-
       .btnSesion {
         margin-top: 60px;
       }
@@ -329,7 +328,7 @@ footer {
     padding: 35px;
     font-size: 18px;
     width: 100%;
-    background-color: rgb(215, 222, 224);
+    background-color: rgb(195, 216, 223);
   }
 }
 
@@ -765,7 +764,7 @@ footer {
   justify-content: center;
   .perfilDesign {
     padding: 35px;
-    background-color: rgb(215, 221, 223);
+    background-color: rgb(195, 216, 223);
     width: 80%;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px;
@@ -822,7 +821,7 @@ footer {
   .paymentStyle {
     text-align: center;
     padding: 55px;
-    background-color: rgb(215, 221, 223);
+    background-color: rgb(195, 216, 223);
     width: 80%;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px;
@@ -837,11 +836,11 @@ footer {
   padding-bottom: 20px;
   padding-top: 20px;
   .bck {
-    width: 200px;
-    background-color: rgb(215, 221, 223);
+    width: 250px;
+    background-color: rgb(195, 216, 223);
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px;
-    padding-top: 10px;
+    padding: 20px;
   }
   #valoraciones,
   #rankingPaises,
@@ -866,7 +865,7 @@ footer {
   width: 720px;
   margin-left: 330px;
   #navbarNav {
-    background-color: rgb(207, 211, 197);
+    background-color: rgb(200, 202, 195);
     border-radius: 25px;
     height: 65px;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
@@ -888,7 +887,7 @@ footer {
       text-align: center;
       padding: 25px;
       margin-bottom: 60px;
-      background-color: rgb(215, 221, 223);
+      background-color: rgb(195, 216, 223);
       box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
       border-radius: 25px;
       width: 80%;
@@ -947,7 +946,3 @@ footer {
   }
 }
 /*End*/
-
-.backNav {
-  background-color: rgb(215, 221, 223);
-}

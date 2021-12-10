@@ -79,7 +79,7 @@ ul a:hover {
   background-color: none; }
 
 .fondoCrear {
-  background-image: linear-gradient(to bottom, #dae6f1, #b9c1c5); }
+  background-image: linear-gradient(to bottom, #e4ecf5, #abbbc2); }
   .fondoCrear .textoTitulo {
     font-weight: bolder;
     font-size: 50px;
@@ -159,7 +159,7 @@ header li {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #d7dddf;
+  background-color: #c3d8df;
   width: 90%; }
   .reserve img {
     width: 250px;
@@ -270,7 +270,7 @@ footer {
     padding: 35px;
     font-size: 18px;
     width: 100%;
-    background-color: #d7dee0; }
+    background-color: #c3d8df; }
 
 .itinerarys {
   text-align: center; }
@@ -615,7 +615,7 @@ footer {
   justify-content: center; }
   .perfilCentrado .perfilDesign {
     padding: 35px;
-    background-color: #d7dddf;
+    background-color: #c3d8df;
     width: 80%;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px; }
@@ -660,7 +660,7 @@ footer {
   .bordeMetodos .paymentStyle {
     text-align: center;
     padding: 55px;
-    background-color: #d7dddf;
+    background-color: #c3d8df;
     width: 80%;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px;
@@ -673,11 +673,11 @@ footer {
   padding-bottom: 20px;
   padding-top: 20px; }
   .feedbacks .bck {
-    width: 200px;
-    background-color: #d7dddf;
+    width: 250px;
+    background-color: #c3d8df;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
     border-radius: 25px;
-    padding-top: 10px; }
+    padding: 20px; }
   .feedbacks #valoraciones,
   .feedbacks #rankingPaises,
   .feedbacks #comentarios {
@@ -697,7 +697,7 @@ footer {
   width: 720px;
   margin-left: 330px; }
   .navTest #navbarNav {
-    background-color: #cfd3c5;
+    background-color: #c8cac3;
     border-radius: 25px;
     height: 65px;
     box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e; }
@@ -716,7 +716,7 @@ footer {
       text-align: center;
       padding: 25px;
       margin-bottom: 60px;
-      background-color: #d7dddf;
+      background-color: #c3d8df;
       box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
       border-radius: 25px;
       width: 80%; }
@@ -756,5 +756,3 @@ footer {
     width: 310px; } }
 
 /*End*/
-.backNav {
-  background-color: #d7dddf; }
