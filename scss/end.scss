@@ -185,6 +185,12 @@ header li {
   justify-content: center;
 }
 
+.reserveCenterDos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
 .reserve {
   margin-top: 30px;
   box-shadow: 0.125rem 0.125rem 0.25rem 0 #7e7e7e;
@@ -243,7 +249,6 @@ a {
 }
 
 footer {
-  margin-top: 60px;
   strong {
     font-size: 20px;
     font-family: sans-serif;
@@ -280,6 +285,7 @@ footer {
   background-image: url("https://images.unsplash.com/photo-1542010091277-58c2669dc40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   .init {
     display: flex;
     justify-content: center;
@@ -334,6 +340,7 @@ footer {
 
 .itinerarys {
   text-align: center;
+  margin-bottom: 80px;
   .titleMargin {
     margin-bottom: 40px;
   }
@@ -373,6 +380,7 @@ footer {
   text-align: center;
   padding: 10px;
   margin-top: 55px;
+  margin-bottom: 60px;
   justify-content: space-evenly;
   .topo {
     display: flex;
@@ -467,6 +475,8 @@ footer {
   background-image: url("https://images.unsplash.com/photo-1480504612934-8170966f69e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
   .videos {
     display: flex;
     flex-direction: column;
@@ -487,7 +497,6 @@ footer {
     display: flex;
     justify-content: center;
     border-radius: 10%;
-    padding-top: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
     align-items: center;
@@ -884,6 +893,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 60px;
     .paisFecha {
       text-align: center;
       padding: 25px;
