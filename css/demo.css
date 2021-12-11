@@ -410,13 +410,14 @@ footer strong {
     display: flex;
     justify-content: center;
     border-radius: 10%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     align-items: center; }
     .formVideo .textoForm .formContacto {
       display: flex;
       flex-direction: column;
-      width: 300px; }
+      width: 300px;
+      padding-left: 35px; }
       .formVideo .textoForm .formContacto .chkboxOrden {
         width: 280px;
         display: flex;
@@ -429,6 +430,8 @@ footer strong {
           height: 10vh;
           align-items: flex-start;
           margin-bottom: 45px; }
+      .formVideo .textoForm .formContacto .comentando {
+        display: flex; }
       .formVideo .textoForm .formContacto #budget,
       .formVideo .textoForm .formContacto .ages,
       .formVideo .textoForm .formContacto .comentando,
@@ -529,13 +532,13 @@ footer strong {
       display: flex;
       flex-direction: column;
       width: 150px; }
-    .formVideo .formContacto {
-      padding-left: 30px; }
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
     margin-bottom: 20px;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .formVideo .textoForm .formContacto {
+    padding-left: 30px; } }
 
 @media (min-width: 280px) and (max-width: 798px) {
   .formVideo .textoForm {

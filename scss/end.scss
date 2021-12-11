@@ -494,13 +494,14 @@ footer {
     display: flex;
     justify-content: center;
     border-radius: 10%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     align-items: center;
     .formContacto {
       display: flex;
       flex-direction: column;
       width: 300px;
+      padding-left: 35px;
       .chkboxOrden {
         width: 280px;
         display: flex;
@@ -514,6 +515,9 @@ footer {
           align-items: flex-start;
           margin-bottom: 45px;
         }
+      }
+      .comentando {
+        display: flex;
       }
       #budget,
       .ages,
@@ -643,15 +647,15 @@ footer {
       flex-direction: column;
       width: 150px;
     }
-    .formContacto {
-      padding-left: 30px;
-    }
   }
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+  .formVideo .textoForm .formContacto {
+    padding-left: 30px;
   }
 }
 
