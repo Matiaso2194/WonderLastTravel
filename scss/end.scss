@@ -501,7 +501,6 @@ footer {
       display: flex;
       flex-direction: column;
       width: 300px;
-      padding-left: 40px;
       .chkboxOrden {
         width: 280px;
         display: flex;
@@ -639,11 +638,20 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    .inputNombre {
+      display: flex;
+      flex-direction: column;
+      width: 150px;
+    }
+    .formContacto {
+      padding-left: 30px;
+    }
   }
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
-    margin: 30px 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
