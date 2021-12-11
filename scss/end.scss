@@ -518,6 +518,7 @@ footer {
       }
       .comentando {
         display: flex;
+        flex-direction: column;
       }
       #budget,
       .ages,
@@ -651,8 +652,6 @@ footer {
   .videosTest iframe {
     max-width: 360px;
     max-height: 203px;
-    margin-bottom: 20px;
-    margin-top: 20px;
   }
   .formVideo .textoForm .formContacto {
     padding-left: 30px;

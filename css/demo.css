@@ -431,7 +431,8 @@ footer strong {
           align-items: flex-start;
           margin-bottom: 45px; }
       .formVideo .textoForm .formContacto .comentando {
-        display: flex; }
+        display: flex;
+        flex-direction: column; }
       .formVideo .textoForm .formContacto #budget,
       .formVideo .textoForm .formContacto .ages,
       .formVideo .textoForm .formContacto .comentando,
@@ -534,9 +535,7 @@ footer strong {
       width: 150px; }
   .videosTest iframe {
     max-width: 360px;
-    max-height: 203px;
-    margin-bottom: 20px;
-    margin-top: 20px; }
+    max-height: 203px; }
   .formVideo .textoForm .formContacto {
     padding-left: 30px; } }
 
